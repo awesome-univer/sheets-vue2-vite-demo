@@ -1,0 +1,30 @@
+{
+  "name": "vue2",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@univerjs/core": "^0.1.13",
+    "@univerjs/design": "^0.1.13",
+    "@univerjs/docs": "^0.1.13",
+    "@univerjs/docs-ui": "^0.1.13",
+    "@univerjs/engine-formula": "^0.1.13",
+    "@univerjs/engine-render": "^0.1.13",
+    "@univerjs/sheets": "^0.1.13",
+    "@univerjs/sheets-formula": "^0.1.13",
+    "@univerjs/sheets-ui": "^0.1.13",
+    "@univerjs/ui": "^0.1.13",
+    "core-js": "^3.37.1",
+    "vue": "2.7.16"
+  },
+  "devDependencies": {
+    "@univerjs/vite-plugin": "^0.4.3",
+    "@vitejs/plugin-vue2": "^2.3.1",
+    "vite": "^5.2.0"
+  }
+}
